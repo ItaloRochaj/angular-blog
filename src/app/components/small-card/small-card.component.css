@@ -11,6 +11,8 @@
   width: 300px;
   height: 150px;
   margin-right: 20px;
+  border-radius: 5px;
+
 }
 
 .small-card__title{
@@ -21,6 +23,6 @@
 }
 
 .container__small-card-separator{
-  margin-top: 40px;
+  margin-top: 50px;
 
 }
