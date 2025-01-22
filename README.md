@@ -50,55 +50,62 @@ angular-blog/
 ## Passo a Passo para Reproduzir o Projeto
 
 1. **Clone o repositório**:
+
    ```bash
    git clone <URL_DO_REPOSITORIO>
    cd angular-blog
    ```
 
-2. **Instale as dependências**:
-   Certifique-se de que o Node.js e o Angular CLI estão instalados.
+2. **Instale as dependências**: Certifique-se de que o Node.js e o Angular CLI estão instalados.
+
    ```bash
    npm install
    ```
 
 3. **Inicie o servidor de desenvolvimento**:
+
    ```bash
    ng serve
    ```
+
    O servidor será iniciado em [http://localhost:4200](http://localhost:4200).
 
 4. **Organização dos Componentes**:
-   - **`big-card`**: Exibe a notícia principal em destaque com imagem e descrição.
-   - **`small-card`**: Exibe notícias secundárias com título e imagem.
-   - **`menu-bar`**: Representa o menu de navegação superior com links como "LinkedIn", "GitHub" e "YouTube".
-   - **`menu-title`**: Contém o título principal do blog "Tech Today".
+
+   - ``: Exibe a notícia principal em destaque com imagem e descrição.
+   - ``: Exibe notícias secundárias com título e imagem.
+   - ``: Representa o menu de navegação superior com links como "LinkedIn", "GitHub" e "YouTube".
+   - ``: Contém o título principal do blog "Tech Today".
 
 5. **Estilização**:
+
    - As classes CSS foram usadas para dar espaçamento, responsividade e estilo aos componentes.
    - Arquivo CSS adicional para responsividade em `menu-title.responsive.component.css`.
 
 6. **Dados Mockados**:
+
    - Os dados exibidos no blog foram simulados em um arquivo JSON. Certifique-se de substituir pelos dados reais conforme a necessidade.
 
 ## Exemplo de Layout
 
 A imagem abaixo mostra a aparência do projeto final:
 
-![Blog Preview](link_da_imagem)
-
-[Selecione uma imagem para o projeto clicando aqui](https://example.com/upload-image)
+![Tech Today Blog](https://github.com/ItaloRochaj/angular-blog/blob/main/Captura%20de%20tela%20de%202025-01-22%2014-19-14.png) ## Screenshots
 
 ### Elementos Principais:
+
 - **Título:** "Tech Today" no centro superior.
 - **Menu:** Links no topo direito.
 - **Cartões:** Big Card à esquerda com a notícia principal e Small Cards à direita com notícias secundárias.
 
 ## Melhorias Futuras
+
 - Implementar responsividade completa para dispositivos móveis.
 - Adicionar API para carregamento dinâmico de dados.
 - Melhorar o design visual utilizando bibliotecas como Angular Material ou Tailwind CSS.
 
 ## Contribuição
+
 Contribuições são bem-vindas! Siga os passos abaixo para contribuir:
 
 1. **Fork este repositório**.
