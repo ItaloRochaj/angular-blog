@@ -11,6 +11,8 @@ export class SmallCardComponent implements OnInit {
   photoCover:string="https://media.investnews.com.br/uploads/2023/07/400395744-1.jpg"
   @Input()
   cardTitle:string="Openai"
+  @Input()
+  Id:string="0"
 
   constructor() { }
 
